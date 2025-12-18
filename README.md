@@ -58,7 +58,7 @@ export WINEPREFIX=/home/x/Games/Bellum
 - Select the game > click the Wine up-arrow (at the bottom, next to "Play" button) > Wine Configuration.
 - The Applications tab in the new window should show many entries (not only “Default Settings”). This confirms Proton-Wine is the underlying base. Close the window. If that's not the case, start over.
 
-# Lutris - install DXVK + VK3D via Winetricks
+## Lutris - install DXVK + VK3D via Winetricks
 - Select the game > click the Wine up-arrow (at the bottom, next to "Play" button) > Winetricks
 - Choose "Select the default wineprefix" > "OK" > "Install a Windows DLL or Component" > Install all of the following (multi-select allowed):
   - dxvk
