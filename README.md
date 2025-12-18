@@ -37,8 +37,8 @@ export WINEPREFIX=/home/x/Games/Bellum
 
 ## Lutris - config
 - Open Lutris and remove any existing Bellum entry from the library.
-- On left panel, go to Runners → Wine → Settings (gear icon)
-- Under Runner Options => Wine Version => select System (10.19 (Staging))
+- On left panel, go to Runners > Wine > Settings (gear icon)
+- Under Runner Options > Wine Version > select System (10.19 (Staging))
 - Ensure DXVK and VK3D are enabled (skip dgvoodoo2).
 - Under System Options, enable (I am not entirely sure if or how these affect stuff):
   - Disable Lutris Runtime (toggle on)
@@ -46,9 +46,9 @@ export WINEPREFIX=/home/x/Games/Bellum
 - Save
 
 ## Lutris - set game options
-- On top left corner, press + to add game → Add locally installed game (its not installed yet but we will get there)
+- On top left corner, press + to add game > Add locally installed game (its not installed yet but we will get there)
 - Set the name to "Bellum", choose Wine as the runner.
-- Under Game Options, set the wine prefix to your earlier WINEPREFIX that we set in Step 8 (/home/x/Games/Bellum)
+- Under Game Options, set the wine prefix to your earlier WINEPREFIX that we set earlier (/home/x/Games/Bellum)
 - Leave Executable path empty for now.
 - Ensure System (10.19 (Staging)) is selected.
 - Ensure Gamescope is NOT enabled. It doesn't exit properly with that and leaves dangling processes.
