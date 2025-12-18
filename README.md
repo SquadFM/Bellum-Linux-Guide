@@ -7,11 +7,13 @@
 - AMD 9070 XT
 
 ## Install required software
+```
 yay -S protonplus
 yay -S wine-staging
 yay -S winetricks
 yay -S lutris
 yay -S gamemode (optional)
+```
 
 ## protonplus config
 - start protonplus (should be in your start menu)
