@@ -22,9 +22,9 @@ yay -S gamemode #optional
 - Note: This Proton build lacks DXVK and VKD3D; we'll add these via Winetricks later.
 
 - verify that folder is not empty:
-
+```
 ls -l /home/$USER/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/
-
+```
 - set install directory (folder must not exist - replace /home/x with your home folder):
 
 export WINEPREFIX=/home/x/Games/Bellum
@@ -81,7 +81,7 @@ export WINEPREFIX=/home/x/Games/Bellum
 - And that's it! You should now be able to launch the game from Lutris.
 
 ## Issues
-- No mouse cursor in launcher. You can kind of track where the mouse cursor is at if you press ALT and the click (which moves the window, but also shows the location of the cursor).
+- Mouse cursor not visible in launcher. You can kind of track where the mouse cursor is at if you press ALT and the click (which moves the window, but also shows the location of the cursor).
 
 
 
