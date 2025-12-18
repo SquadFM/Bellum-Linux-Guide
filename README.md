@@ -29,9 +29,10 @@ ls -l /home/$USER/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/
 ```
 export WINEPREFIX=/home/x/Games/Bellum
 ```
-- go to directory below and run wineboot (replace /home/x with your home folder):
-
+- run wineboot (replace /home/x with your home folder):
+```
 /home/x/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/wineboot -u
+```
 - it may offer to install .NET, do so by clicking OK
 
 ## Lutris - config
