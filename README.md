@@ -82,7 +82,7 @@ export WINEPREFIX=/home/x/Games/Bellum
 - And that's it! You should now be able to launch the game from Lutris.
 
 ## Issues
-- Mouse cursor not visible in launcher. You can kind of track where the mouse cursor is if you press ALT and the click (which in Linux is used to move a window, but it also shows the location of the cursor).
+- The mouse cursor is not visible in the launcher. You can kind of track where the mouse cursor is if you press ALT and then click+hold while moving the mouse (which in Linux is used to move a window, but it also shows the location of the cursor).
 
 
 
