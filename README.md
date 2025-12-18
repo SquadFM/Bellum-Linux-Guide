@@ -26,9 +26,9 @@ yay -S gamemode #optional
 ls -l /home/$USER/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/
 ```
 - set install directory (folder must not exist - replace /home/x with your home folder):
-
+```
 export WINEPREFIX=/home/x/Games/Bellum
-
+```
 - go to directory below and run wineboot (replace /home/x with your home folder):
 
 /home/x/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/wineboot -u
