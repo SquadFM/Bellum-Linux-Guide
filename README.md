@@ -12,7 +12,7 @@ yay -S protonplus
 yay -S wine-staging
 yay -S winetricks
 yay -S lutris
-yay -S gamemode (optional)
+yay -S gamemode #optional
 ```
 
 ## protonplus config
@@ -22,12 +22,15 @@ yay -S gamemode (optional)
 - Note: This Proton build lacks DXVK and VKD3D; we'll add these via Winetricks later.
 
 - verify that folder is not empty:
+
 ls -l /home/$USER/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/
 
 - set install directory (folder must not exist - replace /home/x with your home folder):
+
 export WINEPREFIX=/home/x/Games/Bellum
 
 - go to directory below and run wineboot (replace /home/x with your home folder):
+
 /home/x/.local/share/lutris/runners/wine/wine-proton-10.0-3-amd64/bin/wineboot -u
 - it may offer to install .NET, do so by clicking OK
 
@@ -73,6 +76,7 @@ export WINEPREFIX=/home/x/Games/Bellum
 ## Lutris - Post Install - Set Executable in Lutris
 - In Lutris, right-click the Bellum entry > Configure.
 - Under Game Options, set the launcher executable. Example path:
+
 /home/x/Games/Bellum/drive_c/users/steamuser/AppData/Local/Astarte Industries/Astarte Launcher/AstarteLauncher.exe
 - And that's it! You should now be able to launch the game from Lutris.
 
